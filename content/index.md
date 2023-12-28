@@ -1,6 +1,7 @@
 ---
-title: Welcome to Quartz
+title: 逮虫去啦 - 杭州生物Wiki
+draft: "false"
 ---
+欢迎来到「逮虫去啦」社群带来的杭州生物Wiki。
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+
