@@ -50,6 +50,17 @@ draft: false
 
 如果您对某些条目有不同看法或认为有错误，请联系: this.is.3gee@outlook.com .
 
+## 外部资源
+
+如果你是入门爱好者，下面的资源非常建议使用：
+
+### 分类/鉴定/记录
+
+* [iNaturalist](https://www.inaturalist.org/home)
+* [文浩识蝶](https://www.butterflyai.cc/static/butweb/webfiles/about/ai.html)
+* [文浩识蛾 - 属](https://www.butterflyai.cc/static/mothweb/webfiles/about/ai.html)
+* [文浩识蛾 - 种](https://www.butterflyai.cc/static/mothweb/webfiles/about/aisp.html)
+
 # 感谢
 
 参见[[感谢]]。
