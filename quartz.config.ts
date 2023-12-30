@@ -6,9 +6,7 @@ const config: QuartzConfig = {
     pageTitle: "🐜 逮虫去啦 | 杭州生态WIKI",
     enableSPA: true,
     enablePopovers: true,
-    analytics: {
-      provider: "plausible",
-    },
+    analytics: {provider: "google", "tagId": "G-BQ3HSMN4D9"},
     baseUrl: "gotcha-hz-bio.netlify.app",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
