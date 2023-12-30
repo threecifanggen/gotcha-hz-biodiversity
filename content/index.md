@@ -2,7 +2,6 @@
 title: 逮虫去啦 - 杭州生物Wiki
 draft: false
 ---
-
 # 逮虫去啦 - HZ WIKI
 
 欢迎来到「逮虫去啦」社群带来的杭州生物Wiki。
@@ -37,3 +36,7 @@ draft: false
 ## 勘误
 
 如果您对某些条目有意见或者不同看法，请联系: this.is.3gee@outlook.com .
+
+# 感谢
+
+参见[[感谢]]。
