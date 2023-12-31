@@ -60,6 +60,9 @@ draft: false
 * [文浩识蝶](https://www.butterflyai.cc/static/butweb/webfiles/about/ai.html)
 * [文浩识蛾 - 属](https://www.butterflyai.cc/static/mothweb/webfiles/about/ai.html)
 * [文浩识蛾 - 种](https://www.butterflyai.cc/static/mothweb/webfiles/about/aisp.html)
+* [台湾嘎嘎昆虫网](http://gaga.biodiv.tw/9701bx/in94.htm)
+* 小程序 - 懂鸟
+* 
 
 # 感谢
 
