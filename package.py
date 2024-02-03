@@ -15,5 +15,5 @@ def package(paths:t.Generator[Path, None, None]):
 if __name__ == "__main__":
     paths = search_dir()
     content = package(paths)
-    Path('content.md').write_text(content, encoding="utf-8")
+    (Path() / "build" / 'content.md').write_text(content, encoding="utf-8")
 
