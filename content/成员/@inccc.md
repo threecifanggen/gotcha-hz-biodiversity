@@ -13,3 +13,10 @@ AKA: [[@inccc|天师]]
 ## 社交媒体
 
 INaturalist: [inccc的主页](https://www.inaturalist.org/people/incccc)
+
+## 技能树
+
+[[@天师]] 擅长如下能力：
+
+* [[大树蛙]] 及 [[福建竹叶青]] 的拍摄
+* 微距柔光技能的研发

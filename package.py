@@ -8,8 +8,12 @@ def package(paths:t.Generator[Path, None, None]):
     content_total = ""
     for p in paths:
         print(p)
-        content_total += "\n" + p.read_text(encoding="utf-8")
-    
+        content_total += "\n" + (
+            p.read_text(encoding="utf-8")
+            .replace("[[", "").replace("]]", "")
+            .replace(" #", "")
+            .replace(" @", "")
+        )
     return content_total
 
 if __name__ == "__main__":
