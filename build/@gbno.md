@@ -5,8 +5,10 @@ tags:
   - 成员
 aliases:
   - 铁手
+docs: true
 ---
 @gbno 外号铁手 , 是社群活跃成员。
+
 ![7225bf56573801dba9b47b9d6a41649.jpg](https://gotcha-picgo-bed.oss-cn-beijing.aliyuncs.com/7225bf56573801dba9b47b9d6a41649.jpg)
 ## 技能树
 
