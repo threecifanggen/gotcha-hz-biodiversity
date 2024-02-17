@@ -53,6 +53,7 @@ const config: QuartzConfig = {
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
+      Plugin.ObsidianFlavoredMarkdown(),
     ],
     filters: [Plugin.RemoveDrafts()],
     emitters: [
