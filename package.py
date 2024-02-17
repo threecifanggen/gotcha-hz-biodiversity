@@ -1,10 +1,23 @@
+"""Package all the useful markdown files into the 'build' directory.
+"""
 import typing as t
 from pathlib import Path
+import re
 
 CONTENT_TOTAL = False
 
+_PATTERN_LIST: list[str] = [
+    r"!\[.*?\]\(.*?\)",
+]
+
 
 def search_dir() -> t.Generator[Path, None, None]:
+    """
+    Search the 'content' directory recursively and yield all the Path objects of the markdown files.
+
+    Yields:
+        Path: The Path object of each markdown file found in the 'content' directory.
+    """
     return Path("content").glob("**/*.md")
 
 
@@ -14,6 +27,27 @@ def clear_build() -> None:
     """
     for p in Path("build").glob("*"):
         p.unlink()
+
+
+def process_content(content_text: str) -> str:
+    """
+    Process the content text by removing certain characters.
+
+    Args:
+        content_text (str): The content text to process
+
+    Returns:
+        str: The processed content text
+    """
+    res_text = (
+        content_text.replace("[[", "")
+        .replace("]]", "")
+        .replace(" #", "")
+        .replace(" @", "")
+    )
+    for pattern in _PATTERN_LIST:
+        res_text = re.sub(pattern, "", res_text)
+    return res_text
 
 
 def package(
